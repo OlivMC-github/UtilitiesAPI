@@ -1,5 +1,5 @@
 main: me.dkim19375.utilities.Main
-name: OlivMC_Utilities
+name: UtilitiesAPI
 version: ${pluginVersion}
 description: Custom Utils for OlivMC
 author: dkim19375
