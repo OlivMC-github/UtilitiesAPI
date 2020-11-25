@@ -1,7 +1,5 @@
 package me.dkim19375.utilities;
 
-import me.dkim19375.utilities.api.InterfaceYMLApi;
-import me.dkim19375.utilities.api.YMLApi;
 import me.dkim19375.utilities.commands.CMDTabCompleter;
 import me.dkim19375.utilities.commands.CommandClass;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,6 +24,4 @@ public class Main extends JavaPlugin {
     public void printToConsole(String msg) {
         this.getServer().getConsoleSender().sendMessage("[" + this.getDescription().getName() + "] " + msg);
     }
-
-    InterfaceYMLApi apI = new YMLApi(null);
 }
